@@ -8,6 +8,7 @@ from django.templatetags.i18n import BlockTranslateNode, TranslateNode
 from phrase import settings as phrase_settings
 from phrase.nodes import PhraseBlockTranslateNode, PhraseTranslateNode
 
+import re
 import logging
 
 register = template.Library()
