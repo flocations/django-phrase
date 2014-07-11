@@ -9,6 +9,7 @@ from phrase import settings as phrase_settings
 from phrase.nodes import PhraseBlockTranslateNode, PhraseTranslateNode
 
 import re
+import six
 import logging
 
 register = template.Library()
