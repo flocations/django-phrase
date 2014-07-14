@@ -2,6 +2,7 @@ from django.template import (Node, Variable, TemplateSyntaxError, TokenParser, L
 from django.template.base import _render_value_in_context as render_value_in_context
 from django.utils import six
 from django.conf import settings
+from django.utils import translation
 
 from phrase.utils import PhraseDelegate
 
